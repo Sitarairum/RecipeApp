@@ -9,14 +9,14 @@ const RecipeListScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
       {/* render header */}
-      <Header headerText={"Hi, John "} headerIcon={"bell-o"} />
+      {/* <Header headerText={"Hi, John "} headerIcon={"bell-o"} />*/}
 
       {/* Search Filter */}
-      <SearchFilter icon="search" placeholder={"enter your fav recipe"} />
+      {/* <SearchFilter icon="search" placeholder={"enter your fav recipe"} />*/}
 
       {/* Categories filter */}
 
-      <View style={{ marginTop: 22 }}>
+      <View style={{ marginTop: 65 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Categories</Text>
         {/* Categories list */}
         <CategoriesFilter />

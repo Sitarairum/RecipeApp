@@ -18,11 +18,14 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
   return (
     <View style={{ backgroundColor: item.color, flex: 1 }}>
       <SafeAreaView style={{ flexDirection: "row", marginHorizontal: 16 }}>
-        <Pressable style={{ flex: 1 }} onPress={() => navigation.goBack()}>
+        <Pressable
+          style={{ flex: 1, marginTop: 40 }}
+          onPress={() => navigation.goBack()}
+        >
           <FontAwesome name={"arrow-circle-left"} size={28} color="white" />
         </Pressable>
 
-        <FontAwesome name={"heart-o"} size={28} color="white" />
+        {/*<FontAwesome name={"heart-o"} size={28} color="white" />*/}
       </SafeAreaView>
       <View
         style={{

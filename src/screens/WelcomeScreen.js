@@ -16,10 +16,17 @@ const WelcomeScreen = ({ navigation }) => {
         <View style={{ flex: 1, alignItems: "center" }}>
           <Image
             source={require("../../assets/images/welcome1.png")}
-            style={{ marginTop: 30 }}
+            style={{ marginTop: 80, width: 200, height: 200 }}
           />
 
-          <Text style={{ color: "#f96163", fontSize: 22, fontWeight: "bold" }}>
+          <Text
+            style={{
+              color: "#f96163",
+              fontSize: 22,
+              fontWeight: "bold",
+              marginTop: 40,
+            }}
+          >
             40K+ Premium Recipes
           </Text>
 
@@ -28,7 +35,7 @@ const WelcomeScreen = ({ navigation }) => {
               fontSize: 42,
               fontWeight: "bold",
               color: "#3c444c",
-              marginTop: 44,
+              marginTop: 10,
               marginBottom: 40,
             }}
           >

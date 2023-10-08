@@ -10,35 +10,19 @@ export const colors = {
 export const categories = [
   {
     id: "01",
-    category: "Breakfast",
+    category: "All",
   },
   {
     id: "02",
-    category: "Lunch",
+    category: "Breakfast",
   },
   {
     id: "03",
-    category: "Dinner",
+    category: "Lunch",
   },
   {
     id: "04",
-    category: "Asian",
-  },
-  {
-    id: "05",
-    category: "Italian",
-  },
-  {
-    id: "06",
-    category: "Desserts",
-  },
-  {
-    id: "07",
-    category: "Vegetarian",
-  },
-  {
-    id: "08",
-    category: "Seafood",
+    category: "Dinner",
   },
 ];
 
@@ -201,6 +185,90 @@ export const recipeList = [
     difficulty: "Easy",
     calories: "400 cal",
     color: "#f96163",
+    description:
+      "A comforting bowl of ramen featuring slurp-worthy noodles, a savory soy sauce-based broth, tender vegetables, and perfectly boiled eggs.",
+    steps: [
+      "Boil the ramen noodles according to package instructions.",
+      "In a pot, bring water to a simmer and add soy sauce for the broth.",
+      "Add chopped vegetables and let them cook until tender.",
+      "Boil eggs to your desired doneness, then peel and slice them.",
+      "Assemble the ramen bowls by placing cooked noodles, vegetables, and egg slices.",
+      "Ladle the hot broth over the ingredients and get ready to enjoy your homemade ramen!",
+    ],
+  },
+  {
+    id: "09",
+    name: "Fish",
+    image: require("../assets/images/fish.png"),
+    rating: "4.2",
+    ingredients: ["Ramen Noodles", "Soy Sauce", "Eggs", "Vegetables"],
+    time: "35 mins",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "#6b8e23",
+    description:
+      "A comforting bowl of ramen featuring slurp-worthy noodles, a savory soy sauce-based broth, tender vegetables, and perfectly boiled eggs.",
+    steps: [
+      "Boil the ramen noodles according to package instructions.",
+      "In a pot, bring water to a simmer and add soy sauce for the broth.",
+      "Add chopped vegetables and let them cook until tender.",
+      "Boil eggs to your desired doneness, then peel and slice them.",
+      "Assemble the ramen bowls by placing cooked noodles, vegetables, and egg slices.",
+      "Ladle the hot broth over the ingredients and get ready to enjoy your homemade ramen!",
+    ],
+  },
+  {
+    id: "10",
+    name: "Omelet",
+    image: require("../assets/images/Omelet-Featured-Image.jpg"),
+    rating: "4.2",
+    ingredients: ["Ramen Noodles", "Soy Sauce", "Eggs", "Vegetables"],
+    time: "35 mins",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "#f96163",
+    description:
+      "A comforting bowl of ramen featuring slurp-worthy noodles, a savory soy sauce-based broth, tender vegetables, and perfectly boiled eggs.",
+    steps: [
+      "Boil the ramen noodles according to package instructions.",
+      "In a pot, bring water to a simmer and add soy sauce for the broth.",
+      "Add chopped vegetables and let them cook until tender.",
+      "Boil eggs to your desired doneness, then peel and slice them.",
+      "Assemble the ramen bowls by placing cooked noodles, vegetables, and egg slices.",
+      "Ladle the hot broth over the ingredients and get ready to enjoy your homemade ramen!",
+    ],
+  },
+  {
+    id: "11",
+    name: "Paratha",
+    image: require("../assets/images/paratha.png"),
+    rating: "4.2",
+    ingredients: ["Ramen Noodles", "Soy Sauce", "Eggs", "Vegetables"],
+    time: "35 mins",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "#d2691e",
+    description:
+      "A comforting bowl of ramen featuring slurp-worthy noodles, a savory soy sauce-based broth, tender vegetables, and perfectly boiled eggs.",
+    steps: [
+      "Boil the ramen noodles according to package instructions.",
+      "In a pot, bring water to a simmer and add soy sauce for the broth.",
+      "Add chopped vegetables and let them cook until tender.",
+      "Boil eggs to your desired doneness, then peel and slice them.",
+      "Assemble the ramen bowls by placing cooked noodles, vegetables, and egg slices.",
+      "Ladle the hot broth over the ingredients and get ready to enjoy your homemade ramen!",
+    ],
+  },
+  {
+    id: "12",
+    name: "Biryani",
+    image: require("../assets/images/biryani.jpg"),
+    rating: "4.2",
+    ingredients: ["Ramen Noodles", "Soy Sauce", "Eggs", "Vegetables"],
+    time: "35 mins",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "#ff8c00",
     description:
       "A comforting bowl of ramen featuring slurp-worthy noodles, a savory soy sauce-based broth, tender vegetables, and perfectly boiled eggs.",
     steps: [
