@@ -1,19 +1,12 @@
 import { StyleSheet, View, Text, SafeAreaView, ScrollView } from "react-native";
 import React from "react";
-import Header from "../components/Header";
-import SearchFilter from "../components/SearchFilter";
+
 import CategoriesFilter from "../components/CategoriesFilter";
 import RecipeCard from "../components/RecipeCard";
 
 const RecipeListScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
-      {/* render header */}
-      {/* <Header headerText={"Hi, John "} headerIcon={"bell-o"} />*/}
-
-      {/* Search Filter */}
-      {/* <SearchFilter icon="search" placeholder={"enter your fav recipe"} />*/}
-
       {/* Categories filter */}
 
       <View style={{ marginTop: 65 }}>
